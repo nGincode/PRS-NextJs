@@ -1,0 +1,101 @@
+.react-select__control--is-focused {
+    box-shadow: none;
+    border-color: #5bcfc5;
+    border-radius: 1rem;
+    padding-left: 5px;
+    margin-top: -5px;
+    margin-left: -20px;
+    margin-right: -17px;
+    background: transparent;
+    border: unset;
+    height: 56px;
+}
+
+
+.react-select__control--is-focused:hover {
+    box-shadow: none;
+    border-color: #5bcfc5;
+}
+
+.react-select__control--is-focused:active {
+    box-shadow: none;
+    border-color: #5bcfc5;
+}
+
+.react-select__control--is-focused:focus {
+    box-shadow: none;
+    border-color: #5bcfc5;
+}
+
+.css-qc6sy-singleValue {
+    color: hsl(210deg 3% 47%);
+}
+
+
+.react-select__control {
+    height: 56px;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding-left: 5px;
+    margin-top: -5px;
+    margin-left: -20px;
+    margin-right: -17px;
+    background: transparent;
+    border: unset;
+}
+
+
+.react-select__menu {
+    margin-left: -20px;
+}
+
+.invalid-feedback-select {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #f72b50;
+}
+
+
+
+.react-select__indicator-separator {
+    background-color: unset;
+}
+
+@media only screen and (max-width: 1400px) {
+    .react-select__control {
+        cursor: pointer;
+        height: 30px;
+        border-radius: 1rem;
+        padding-left: 5px;
+        margin-top: -5px;
+        margin-left: -20px;
+        margin-right: -17px;
+        background: transparent;
+        border: unset;
+    }
+
+    .react-select__control--is-focused {
+        box-shadow: none;
+        height: 30px;
+        border-color: #5bcfc5;
+        border-radius: 1rem;
+        padding-left: 5px;
+        margin-top: -5px;
+        margin-left: -20px;
+        margin-right: -17px;
+        background: transparent;
+        border: unset;
+    }
+
+    .react-select__control--is-focused:hover {
+        box-shadow: none;
+        border-color: #5bcfc5;
+    }
+
+    .react-select__control--is-focused:active {
+        box-shadow: none;
+        border-color: #5bcfc5;
+    }
+
+}
